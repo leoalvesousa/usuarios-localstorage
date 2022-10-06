@@ -89,7 +89,7 @@ class User {
         return users;
     }
 
-    getNewID() {
+    getID() {
         let usersID = parseInt(localStorage.getItem("usersID"));
 
         if (!usersID > 0) usersID = 0;
